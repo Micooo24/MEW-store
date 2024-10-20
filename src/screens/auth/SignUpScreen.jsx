@@ -12,6 +12,7 @@ import { FormElement, Input } from "../../styles/form";
 import { Link } from "react-router-dom";
 import { BaseButtonBlack } from "../../styles/button";
 
+
 const SignUpScreenWrapper = styled.section`
   form {
     margin-top: 40px;
@@ -24,6 +25,8 @@ const SignUpScreenWrapper = styled.section`
   .text-space {
     margin: 0 4px;
   }
+    
+    
 `;
 
 const SignUpScreen = () => {

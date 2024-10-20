@@ -81,7 +81,7 @@ const NavigationMenuWrapper = styled.nav`
     top: 0;
     right: 0;
     width: 260px;
-    background: ${defaultTheme.color_white};
+    background: ${defaultTheme.color_beige};
     height: 100%;
     z-index: 999;
     display: none;
