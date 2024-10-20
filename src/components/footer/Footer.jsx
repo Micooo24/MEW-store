@@ -183,11 +183,10 @@ const Footer = () => {
         </div>
         <div className="footer-bottom text-center">
           <p className="text-base text-white">
-            Copyright &copy; 2023 &nbsp;
+            Copyright &copy; 2024 &nbsp;
             <Link to="/" className="text-white">
-              Achats site
+              MEW | All rights reserved.
             </Link>
-            &nbsp;. All rights reserved.
           </p>
         </div>
       </Container>

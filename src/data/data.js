@@ -423,8 +423,8 @@ const footerData = [
     title: "Company",
     links: [
       { text: "About Us", url: "/contact" },
-      { text: "Achats Blog", url: "/blog" },
-      { text: "Achatsian", url: "/achatsian" },
+      { text: "MEW Blog", url: "/blog" },
+      { text: "MEW", url: "/achatsian" },
       { text: "Collaboration", url: "/collaboration" },
       { text: "Media", url: "/media" },
     ],
@@ -443,9 +443,9 @@ const footerData = [
     id: "f_location",
     title: "Location",
     lists: [
-      { text: "Tsupport@euphoria.in" },
-      { text: "Highland Strett, A04 Street 4014" },
-      { text: "New York City, USA" },
+      { text: "mewstore@gmail.com" },
+      { text: "Highland Street, A04 Street 4014" },
+      { text: "Taguig City, Philippines" },
       { text: "Phone: +000 999 8888" },
     ],
   },
