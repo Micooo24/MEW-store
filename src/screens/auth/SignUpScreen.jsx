@@ -14,6 +14,7 @@ import { BaseButtonBlack } from "../../styles/button";
 
 
 const SignUpScreenWrapper = styled.section`
+
   form {
     margin-top: 40px;
     .form-elem-text {

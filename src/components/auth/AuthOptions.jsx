@@ -14,8 +14,10 @@ const SignOptions = styled.div`
     transition: ${defaultTheme.default_transition};
 
     &:hover {
-      transform: translateY(2px);
-      border-color: ${defaultTheme.color_white};
+      transform: translateY(-2px); /* subtle lift effect */
+      background-color: #D5C4B1; /* darker beige for hover */
+      border-color: #C4A992; /* muted soft brown for border */
+      color: #3C3C3C; /* dark text to ensure readability */
     }
 
     .sign-opt-icon {

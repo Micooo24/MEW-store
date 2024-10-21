@@ -15,14 +15,18 @@ const ButtonGroupWrapper = styled.div`
   }
 `;
 
+const HeaderMainWrapperCustom = styled(HeaderMainWrapper)`
+  background-color: #BDEEEA;/* Applying custom background color */
+`;
+
 const AuthHeader = () => {
   return (
-    <HeaderMainWrapper className="flex items-center">
+    <HeaderMainWrapperCustom className="flex items-center">
       <Container>
         <div className="header-wrap flex items-center justify-between">
           <SiteBrandWrapper to="/" className="inline-flex">
             <div className="brand-img-wrap flex items-center justify-center">
-              <img className="site-brand-img" src={staticImages.logo} alt="" />
+              <img className="site-brand-img" src={staticImages.logo} alt="Logo" />
             </div>
             <span className="site-brand-text">MEW.</span>
           </SiteBrandWrapper>
@@ -34,7 +38,7 @@ const AuthHeader = () => {
           </div>
         </div>
       </Container>
-    </HeaderMainWrapper>
+    </HeaderMainWrapperCustom>
   );
 };
 

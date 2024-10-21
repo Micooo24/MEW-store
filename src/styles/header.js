@@ -21,6 +21,7 @@ export const HeaderMainWrapper = styled.header`
     margin-right: 10px;
     margin-bottom: -1px;
   }
+
 `;
 
 export const SiteBrandWrapper = styled(Link)`
